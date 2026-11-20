@@ -190,10 +190,9 @@ article.project.project-poster:focus-within .project-copy { left: 50%; right: au
   .contact footer { padding-top: 37.5px; font-size: 9px; }
   .case-page .contact footer { gap: 12px; }
   .case-page { padding-top: 60px; }
-  .case-showcase { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 12px; padding-top: 24px; padding-bottom: 56px; }
-  .case-side-info { grid-column: 1; }
-  .case-hero-image { grid-column: 2; }
-  .case-hero-image { width: 100%; height: auto; aspect-ratio: 4 / 3; }
+  .case-showcase { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-top: 24px; padding-bottom: 56px; }
+  .case-side-info { grid-column: 1; grid-row: 2; }
+  .case-hero-image { grid-column: 1; grid-row: 1; width: 100%; height: auto; aspect-ratio: 4 / 3; }
   .case-hero-image.is-poster { width: 100%; height: auto; aspect-ratio: 2 / 3; justify-self: stretch; }
   .case-details { grid-template-columns: 1fr; gap: 12px; padding: 24px 0 0; margin-top: 24px; }
   .case-title { font-size: clamp(14px, 3.75vw, 25px); margin-bottom: 12px; }
