@@ -175,8 +175,8 @@ article.project.project-poster:focus-within .project-copy { left: 50%; right: au
   .project { flex-basis: 84vw; height: 66svh; min-height: 360px; }
   .project-poster { flex-basis: min(44svh, 62vw); }
   .project-portrait { flex-basis: min(44svh, 62vw); }
-  .project-square { flex-basis: 62vw; height: 62vw; min-height: 0; }
-  .project-landscape { flex: 0 0 auto; width: 64.6svh; height: 44svh; min-height: 0; }
+  .project-square { flex-basis: 62vw; height: 66svh; min-height: 360px; }
+  .project-landscape { flex: 0 0 auto; width: 96.9svh; height: 66svh; min-height: 360px; }
   .project-copy { left: 24px; right: 24px; bottom: 36px; }
   .project-copy h2 { font-size: 44px; }
   .project-description { font-size: 13px; }
