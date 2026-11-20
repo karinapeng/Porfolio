@@ -60,6 +60,7 @@ a { color: inherit; text-decoration: none; }
 .project-image { position: absolute; z-index: -2; inset: 0; background-image: var(--project-image); background-position: center; background-size: cover; filter: none; transform: none; opacity: 1; transition: opacity .35s ease; }
 .project-poster { flex: 0 0 min(52vh, 546px); background: transparent; }
 .project-portrait { flex-basis: min(52vh, 546px); }
+.project-portrait .project-image { background-size: contain; background-repeat: no-repeat; }
 .project-square { flex-basis: min(72.8vh, 764px); height: min(78vh, 820px); background: transparent; }
 .project-square .project-image { background-size: contain; background-repeat: no-repeat; }
 .project-landscape { flex: 0 0 auto; width: min(114.5vh, 1202px); height: min(78vh, 820px); background: transparent; }
@@ -173,8 +174,8 @@ article.project.project-poster:focus-within .project-copy { left: 50%; right: au
   .gallery-topline { top: 76px; font-size: 9px; }
   .project-track { gap: 12px; margin-top: 52px; }
   .project { flex-basis: 84vw; height: 66svh; min-height: 360px; }
-  .project-poster { flex-basis: min(44svh, 62vw); }
-  .project-portrait { flex-basis: min(44svh, 62vw); }
+  .project-poster { flex-basis: max(44svh, 240px); }
+  .project-portrait { flex-basis: max(44svh, 240px); }
   .project-square { flex-basis: 62vw; height: 66svh; min-height: 360px; }
   .project-landscape { flex: 0 0 auto; width: 96.9svh; height: 66svh; min-height: 360px; }
   .project-copy { left: 24px; right: 24px; bottom: 36px; }
